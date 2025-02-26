@@ -1,4 +1,4 @@
-# ANT BMS Python Bluetooth Interface 🚀🔵
+# ANT BMS Python Bluetooth Interface 
 
 Welcome to the **ANT BMS Python Bluetooth Interface** project! This repository contains a Python-based interface for communicating with an ANT Battery Management System (BMS) using a Bluetooth connection on a Windows PC.
 
@@ -14,6 +14,24 @@ This project implements a Python script that:
 - Parses the response data based on a protocol specification originally designed for RS485/UART/RS232 interfaces.
 
 Even though the physical connection is via Bluetooth, the underlying protocol remains consistent. For detailed protocol specifications (frame structure, command codes, checksum calculation, and data interpretation), please refer to the document provided in the `docs/` folder.
+
+---
+
+## 🔋 Supported BMS Model
+
+This project is specifically designed to work with the **ANT BMS 8S-22S 40A-240A Smart 24V-80V LiFePO4 Li-ion LTO Battery Protection Board**.
+
+- **Product Page:** [ANT BMS Official Product Page](https://antbms.vip/product/ant-bms-8s-22s-40a-240a-smart-24v-80v-lifepo4-li-ion-lto-battery-protection-board/)
+- **Supported Battery Types:** LiFePO4, Li-ion, LTO
+- **Supported Voltage Range:** 24V - 80V
+- **Communication Interface:** Bluetooth, RS485, UART, RS232
+- **Maximum Current Options:** 40A - 240A
+- **Smart Features:** Real-time monitoring, balancing, overcharge & over-discharge protection
+
+### 🔍 **BMS Image**
+![ANT BMS Image](https://antbms.vip/wp-content/uploads/2023/10/ANT-BMS-8S-9S-10S-11S-12S-13S-14S-15S-16S-17S-18S-19S-20S-21S-22S-40A-80A-110A-130A-170A-240A-380A-Smart-24V-36V-48V-60V-72V-80V-Lifepo4-li-ion-LTO-Battery-Protection-Board-3.jpg)
+
+This Python interface allows Windows users to communicate with this BMS over **Bluetooth** via a virtual COM port.
 
 ---
 
